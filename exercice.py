@@ -3,9 +3,14 @@
 
 
 def order(values: list = None) -> list:
-    if values is None:
-        # TODO: demander les valeurs ici
-        pass
+# entrer 10 valeurs
+    liste = []
+    for i in range(10):
+        value = int(input('Veuillez saisir un nombre: '))
+        list.append(value)
+
+    list.sort(reverse=True )
+    print(liste)
 
     return []
 
